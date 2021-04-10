@@ -82,8 +82,6 @@ const Dashboard = () => {
     fetchProducts()
    
    }, [])
-  
-
   const onFinish = async(values: any) => {
     setIsLoading(true)
     let api = `${BaseUrl}/product/getProductByLocation`
